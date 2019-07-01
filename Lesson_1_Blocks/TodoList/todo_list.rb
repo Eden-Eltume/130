@@ -43,8 +43,8 @@ class TodoList
     end
   end
 
-  def <<
-    add()
+  def <<(item)
+    add(item)
   end
 
   def size
