@@ -146,3 +146,8 @@ class TodoList
     each { |todo| todo.undone! }
   end
 end
+
+todos = [Todo.new("Go out"), Todo.new("Go to gym"), Todo.new("Call someone")]
+list = TodoList.new("My list")
+todos.each{|todo| list << todo}
+puts list.select{|todo| todo.done?}.to_s
