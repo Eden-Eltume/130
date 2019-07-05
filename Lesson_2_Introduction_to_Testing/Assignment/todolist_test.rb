@@ -4,6 +4,9 @@ Minitest::Reporters.use!
 
 require_relative 'todolist_final'
 
+require 'simplecov'
+SimpleCov.start
+
 class TodoListTest < MiniTest::Test
 
   def setup
