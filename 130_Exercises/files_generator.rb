@@ -1,16 +1,16 @@
 require 'fileutils'
 
 copy_and_paste = <<~NAMES
-1 	Enumerable Class Creation 	Not completed
-2 	Optional Blocks 	Not completed
-3 	Find Missing Numbers 	Not completed
-4 	Divisors 	Not completed
-5 	Encrypted Pioneers 	Not completed
-6 	Iterators: True for Any? 	Not completed
-7 	Iterators: True for All? 	Not completed
-8 	Iterators: True for None? 	Not completed
-9 	Iterators: True for One? 	Not completed
-10 	Count Items
+1   From-To-Step Sequence Generator   completed
+2   Zipper  completed
+3   map   Not completed
+4   count   Not completed
+5   drop_while  Not completed
+6   each_with_index   Not completed
+7   each_with_object  Not completed
+8   max_by  Not completed
+9   each_cons (Part 1)  Not completed
+10  each_cons (Part 2)
 NAMES
 
 def generate_filenames(heredoc, filetype)
