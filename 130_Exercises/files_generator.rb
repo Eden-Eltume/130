@@ -1,16 +1,13 @@
 require 'fileutils'
 
 copy_and_paste = <<~NAMES
-1   Boolean Assertions  Not completed
-2   Equality Assertions   Not completed
-3   Nil Assertions  Not completed
-4   Empty Object Assertions   Not completed
-5   Included Object Assertions  Not completed
-6   Exception Assertions  Not completed
-7   Type Assertions   Not completed
-8   Kind Assertions   Not completed
-9   Same Object Assertions  Not completed
-10  Refutations
+1   Listening Device  Not completed
+2   Text Analyzer - Sandwich Code   Not completed
+3   Passing Parameters Part 1   Not completed
+4   Passing Parameters Part 2   Not completed
+5   Passing Parameters Part 3   Not completed
+6   Method to Proc  Not completed
+7   Bubble Sort with Blocks   Not completed
 NAMES
 
 def generate_filenames(heredoc, filetype)

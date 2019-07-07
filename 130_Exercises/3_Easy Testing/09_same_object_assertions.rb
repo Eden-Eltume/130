@@ -2,13 +2,18 @@ require 'minitest/autorun'
 require 'minitest/reporters'
 Minitest::Reporters.use!
 
+class List
+  def process
+    self
+  end
+end
+
 class SameTest < Minitest::Test
+  def setup
+    @list = List.new
+  end
+
   def test_same
-    arr1 = [1, 'test', true]
-    arr2 = arr1
-    arr3 = arr1.clone
-    assert_same(arr1, arr2)
-    refute_same(arr1, arr3)
-    assert_same(arr1[0], arr3[0])
+    assert_same(@list, @list.process)
   end
 end
