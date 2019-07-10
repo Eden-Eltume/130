@@ -1,13 +1,16 @@
 require 'fileutils'
 
 copy_and_paste = <<~NAMES
-1   Listening Device  Not completed
-2   Text Analyzer - Sandwich Code   Not completed
-3   Passing Parameters Part 1   Not completed
-4   Passing Parameters Part 2   Not completed
-5   Passing Parameters Part 3   Not completed
-6   Method to Proc  Not completed
-7   Bubble Sort with Blocks   Not completed
+1 	Classes to Test - Cash Register and Transaction 	Not completed
+2 	Setup the Test Class - Cash Register 	Not completed
+3 	Test Accept Money Method - Cash Register 	Not completed
+4 	Test Change Method - Cash Register 	Not completed
+5 	Test Give Receipt Method - Cash Register 	Not completed
+6 	Test Prompt For Payment Method- Transaction 	Not completed
+7 	Alter Prompt For Payment Method - Transaction 	Not completed
+8 	Swap Letters Sample Text and Starter File 	Not completed
+9 	Test swap method - Text 	Not completed
+10 	Test word_count method - Text
 NAMES
 
 def generate_filenames(heredoc, filetype)
