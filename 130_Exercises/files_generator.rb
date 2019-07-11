@@ -1,16 +1,8 @@
 require 'fileutils'
 
 copy_and_paste = <<~NAMES
-1 	Classes to Test - Cash Register and Transaction 	Not completed
-2 	Setup the Test Class - Cash Register 	Not completed
-3 	Test Accept Money Method - Cash Register 	Not completed
-4 	Test Change Method - Cash Register 	Not completed
-5 	Test Give Receipt Method - Cash Register 	Not completed
-6 	Test Prompt For Payment Method- Transaction 	Not completed
-7 	Alter Prompt For Payment Method - Transaction 	Not completed
-8 	Swap Letters Sample Text and Starter File 	Not completed
-9 	Test swap method - Text 	Not completed
-10 	Test word_count method - Text
+1 	Internal vs External Iterators 	Not completed
+2 	Exploring Procs, Lambdas, and Blocks: Definition and Arity 	Not completed
 NAMES
 
 def generate_filenames(heredoc, filetype)
