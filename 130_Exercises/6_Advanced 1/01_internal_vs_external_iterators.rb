@@ -16,3 +16,4 @@ factorial.each_with_index do |number, index|
   puts number
   break if index == 6
 end
+

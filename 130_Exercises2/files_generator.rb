@@ -1,8 +1,16 @@
 require 'fileutils'
 
 copy_and_paste = <<~NAMES
-1 	Internal vs External Iterators 	Not completed
-2 	Exploring Procs, Lambdas, and Blocks: Definition and Arity 	Not completed
+1 	Enumerable Class Creation 	completed
+2 	Optional Blocks 	completed
+3 	Find Missing Numbers 	completed
+4 	Divisors 	completed
+5 	Encrypted Pioneers 	completed
+6 	Iterators: True for Any? 	completed
+7 	Iterators: True for All? 	completed
+8 	Iterators: True for None? 	completed
+9 	Iterators: True for One? 	completed
+10 	Count Items
 NAMES
 
 def generate_filenames(heredoc, filetype)
