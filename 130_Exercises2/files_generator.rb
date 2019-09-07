@@ -1,16 +1,13 @@
 require 'fileutils'
 
 copy_and_paste = <<~NAMES
-1 	From-To-Step Sequence Generator 	completed
-2 	Zipper 	completed
-3 	map 	completed
-4 	count 	completed
-5 	drop_while 	completed
-6 	each_with_index 	completed
-7 	each_with_object 	completed
-8 	max_by 	completed
-9 	each_cons (Part 1) 	completed
-10 	each_cons (Part 2)
+1 	Listening Device 	completed
+2 	Text Analyzer - Sandwich Code 	completed
+3 	Passing Parameters Part 1 	completed
+4 	Passing Parameters Part 2 	completed
+5 	Passing Parameters Part 3 	completed
+6 	Method to Proc 	completed
+7 	Bubble Sort with Blocks 	completed
 NAMES
 
 def generate_filenames(heredoc, filetype)
