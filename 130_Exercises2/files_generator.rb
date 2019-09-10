@@ -1,16 +1,16 @@
 require 'fileutils'
 
 copy_and_paste = <<~NAMES
-1   Boolean Assertions  completed
-2   Equality Assertions   completed
-3   Nil Assertions  completed
-4   Empty Object Assertions   completed
-5   Included Object Assertions  completed
-6   Exception Assertions  completed
-7   Type Assertions   completed
-8   Kind Assertions   completed
-9   Same Object Assertions  completed
-10  Refutations   completed
+1 	Classes to Test - Cash Register and Transaction 	completed
+2 	Setup the Test Class - Cash Register 	completed
+3 	Test Accept Money Method - Cash Register 	completed
+4 	Test Change Method - Cash Register 	completed
+5 	Test Give Receipt Method - Cash Register 	completed
+6 	Test Prompt For Payment Method- Transaction 	completed
+7 	Alter Prompt For Payment Method - Transaction 	completed
+8 	Swap Letters Sample Text and Starter File 	completed
+9 	Test swap method - Text 	completed
+10 	Test word_count method - Text 	completed
 NAMES
 
 def generate_filenames(heredoc, filetype)
