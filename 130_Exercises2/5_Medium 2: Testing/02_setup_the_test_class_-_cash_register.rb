@@ -8,6 +8,6 @@ require_relative 'transaction'
 class CashRegisterTest < Minitest::Test
   def setup
     @register = CashRegister.new(200)
-    @transaction = Transaction.new(60, 100)
+    @transaction = Transaction.new(60)
   end
 end
