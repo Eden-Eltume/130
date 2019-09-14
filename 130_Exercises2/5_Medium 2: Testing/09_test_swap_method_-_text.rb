@@ -6,24 +6,24 @@ require_relative '08_swap_letters_sample_text_and_starter_file'
 
 class Test_Text < Minitest::Test
   def setup
-    @sample_text = File.open("08_sample_text.txt")
-    file = File.open("08_sample_text.txt")
-    @text = Text.new(file.read)
+    @sample_text = File.open("08_sample_text.txt").read
+    @file = File.open("08_sample_text.txt")
+    @text = Text.new(@file.read)
   end
 
-# fix test_swap to return modified text
   def test_swap
     expected_text =
-      @sample_text.each_line.map do |line|
-        line.split(' ').map do |word|
-          word.split.map{|char| char == 'e' ? 'o' : char}.join
-        end.join(' ')
-      end 
+      @sample_text.split("\n").map do |line|
+        line.split(" ").map do |word|
+          word.chars.map{|char| char == "e" ? "o" : char}.join
+        end.join(" ")
+      end.join("\n")
 
-    assert_equal(File.open(expected_text).read, @text.swap("e", "o"))
+    actual_result = @text.swap("e", "o")
+    assert_equal(expected_text, actual_result)
   end
 
   def teardown
-    @sample_text.close
+    @file.close
   end
 end
